@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    height: 100%;
+    font-family: 'Arsenal SC', Arial, sans-serif;
+}
+
+header {
+    height: 100vh;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-top: 200px;
+    color: beige;
+    background-color: rgb(10, 4, 4);
+    display: flex;
+    font-size: x-large;
+    font-weight: 500;
+
+    .logo-first {
+        padding: 8px 16px 8px 16px;
+        border: 2px solid beige;
+    }
+    .logo-second {
+        padding: 8px 16px 8px 16px;
+        border: 2px solid beige;
+        border-left: 0px;
+    }
+}
+
+.logo-mini {
+    margin-top: 200px;
+    color: black;
+    background-color: beige;
+    display: flex;
+    font-size: small;
+    font-weight: 1000;
+
+    position: absolute;
+    bottom: 10px; /* Adjust vertical position */
+    right: -100px; /* Adjust horizontal position */
+
+    .logo-first {
+        padding: 4px 8px 4px 8px;
+        border: 1px solid rgb(10, 10, 10);
+    }
+    .logo-second {
+        padding: 4px 8px 4px 8px;
+        border: 1px solid rgb(0, 0, 0);
+        border-left: 0px;
+    }
+}
+
+
+nav {
+    /* border: solid 1px black; */
+    padding: 10px;
+}
+
+.down-arrow {
+    position: absolute;
+    bottom: 10px; /* Adjust vertical position */
+    right: 10px; /* Adjust horizontal position */
+    font-size: xx-large;
+    font-weight: 900;
+    color: beige;
+}
+
+  
+.nav_button {
+    font-family: 'quicksand';
+    background: transparent;
+    color: rgb(182, 182, 154);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 400;
+}
+.nav_button:hover {
+    color: beige;
+}
+
+.content {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: auto;
+    text-align: center;    
+    margin: auto; 
+    width: 50vw; /* Responsive width in viewport width units */
+    padding-bottom: 20px;
+    position: relative;
+}
+.content a {
+    text-decoration: underline; /* Underline text */
+    color: inherit; /* Inherit color from parent (black by default) */
+}
+
+fieldset {
+    border-top: 1px solid 1px;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+input {
+    height: 30px;
+    margin-bottom: 7px;
+}
+
+.booking-btn {
+    background-color: rgb(182, 182, 154);;
+    color: beige;
+    border: 0;
+    font-weight: 700;
+    cursor: pointer;
+    /* padding: 10px; */
+}
+
+.booking-btn:hover {
+    background-color: black;
+}
+
+footer {
+    font-family: 'quicksand';
+    padding: 20px;
+    border-top: 1px solid rgb(10, 4, 4);
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: auto;
+    text-align: center;   
+    width: 80vw;
+    margin: auto; 
+}
