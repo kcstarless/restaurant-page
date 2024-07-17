@@ -4,12 +4,9 @@ import reservationPage from './reservation.js';
 import menuPage from './menu.js';
 
 document.addEventListener('DOMContentLoaded', function() {
-    const header = document.getElementById('header')
     const menuBtn = document.getElementById('menuBtn');
     const reservationBtn = document.getElementById('reservationBtn');
     const logoLink = document.getElementById('logoLink');
-    const content = document.getElementById('content');
-    const miniLogoLink = document.getElementById('logoLink-mini');
 
     // Initial content load
     content.appendChild(aboutPage());
@@ -32,9 +29,4 @@ document.addEventListener('DOMContentLoaded', function() {
         content.appendChild(reservationPage());
         content.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
-
-    miniLogoLink.addEventListener('click', function() {
-        header.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    });
-
 });
