@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 html, body {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     background-color: beige;
@@ -20,6 +21,7 @@ header {
     color: white;
     text-align: center;
 }
+
 a {
     text-decoration: none;
 }
